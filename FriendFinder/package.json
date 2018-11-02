@@ -4,7 +4,7 @@
   "description": "an app that introduces similar people.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,4 +16,6 @@
     "url": "https://github.com/memisgulden/FriendFinder/issues"
   },
   "homepage": "https://github.com/memisgulden/FriendFinder#readme"
+  
 }
+
