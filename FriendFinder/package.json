@@ -1,21 +1,17 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "an app that introduces similar people.",
+  "description": "This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/memisgulden/FriendFinder.git"
   },
   "author": "Gulden Rose Memis",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/memisgulden/FriendFinder/issues"
-  },
-  "homepage": "https://github.com/memisgulden/FriendFinder#readme"
-  
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
 }
-
