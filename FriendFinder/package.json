@@ -1,0 +1,19 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "an app that introduces similar people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memisgulden/FriendFinder.git"
+  },
+  "author": "Gulden Rose Memis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memisgulden/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/memisgulden/FriendFinder#readme"
+}

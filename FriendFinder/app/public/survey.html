@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron mt-3">
+      <h1 class="text-left"><span class="fa fa-facebook-square"></span> Friend Finder</h1>
+      <hr>
+      <br>
+
+      <div class="text-left">
+        <a href="./home.html"><button class="btn btn-lg btn-primary"><span class="fa fa-home"></span> Home</button></a>
+      </div>
+
+    </div>
+
+
+
+    <!-- Survey Starts Here-->
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            Survey Questions
+          </div>
+          <div class="card-body">
+            <form role="form">
+
+              <div class="form-group">
+                <label for="name" id="new-name">Name (required)</label>
+                <input type="text" class="form-control" id="reserve-name">
+              </div>
+
+              <div class="form-group">
+                <label for="photo-link" id="new-link">Link to Photo Image (required)</label>
+                <input type="text" class="form-control" id="photo">
+              </div>
+
+              <div class="form-group">
+                <label for="q1">Q1: Your mind is always buzzing with unexplored ideas and plans.</label>
+                <select class="form-control" id="q1">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q1">Q2: Generally speaking, you rely more on your experience than your imagination.</label>
+                <select class="form-control" id="q2">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q3">Q3: You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                <select class="form-control" id="q3">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q4">Q4: You rarely do something just out of sheer curiosity.</label>
+                <select class="form-control" id="q4">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q5">Q5: People can rarely upset you.</label>
+                <select class="form-control" id="q5">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q6">Q6: It is often difficult for you to relate to other people’s feelings.</label>
+                <select class="form-control" id="q6">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q7">Q7: In a discussion, truth should be more important than people’s sensitivities.</label>
+                <select class="form-control" id="q7">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q8">Q8: You rarely get carried away by fantasies and ideas.</label>
+                <select class="form-control" id="q8">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q9">Q9: You think that everyone’s views should be respected regardless of whether they are
+                  supported by facts or not.</label>
+                <select class="form-control" id="q9">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="q10">Q10: You feel more energetic after spending time with a group of people.</label>
+                <select class="form-control" id="q10">
+                  <option>1 (Strongly Disagree)</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5 (Strongly Agree)</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/tables">API Table Link</a> |
+          <a href="/api/waitlist">API Wait List</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+  $(".submit").on("click", function (event) {
+    event.preventDefault();
+
+    // Here we grab the form elements
+    var newFriend = {
+      customerName: $("#new-name").val().trim(),
+      phoneNumber: $("#new-link").val().trim(),
+      customerEmail: $("#reserve-email").val().trim(),
+      customerID: $("#reserve-unique-id").val().trim()
+    };
+
+    console.log(newFriend);
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+
+    $.post("/api/tables", newFriend,
+      function (data) {
+
+        // If a table is available... tell user they are booked.
+        if (data) {
+          alert("Yay! You are officially booked!");
+        }
+
+        // If a table is available... tell user they on the waiting list.
+        else {
+          alert("Sorry you are on the wait list");
+        }
+
+        // Clear the form when submitting
+        $("#new-name").val("");
+        $("#new-link").val("");
+        $("#reserve-email").val("");
+        $("#reserve-unique-id").val("");
+
+      });
+
+  });
+
+</script>
