@@ -2,21 +2,18 @@ var friends = require("../data/friends");
 
 module.exports = function(app) {
 
+
   app.get("/data/friends", function(req, res) {
-    res.json(friends);
+    return res.json(friends);
   });
 
 
-  app.post("/data/friends", function(req, res) {
+  app.post("/data/newFriends", function(req, res) {
 
-    if (tableData.length < 5) {
-      tableData.push(req.body);
-      res.json(true);
-    }
-    else {
-      friends.push(req.body);
-      res.json(false);
-    }
+   console.log("New friends added");
+   friends.push(req.body);
+   res.json(true);
+  
   });
 
 
@@ -26,4 +23,14 @@ module.exports = function(app) {
 
     res.json({ ok: true });
   });
+
+  app.get("/routing/apiRoutes.js", function(req, res) {
+    return res.json(friends);
+
+  });
+  
 };
+
+
+
+

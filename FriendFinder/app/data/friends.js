@@ -2,7 +2,7 @@
 var friends = [
   {
     Name: "Saima",
-    PhotoLink: "saima@example.com",
+    PhotoLink: "saima.com",
     Scores: [
       "1",
       "2",
