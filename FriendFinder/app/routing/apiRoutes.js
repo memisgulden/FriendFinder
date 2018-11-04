@@ -11,17 +11,9 @@ module.exports = function(app) {
   app.post("/data/newFriends", function(req, res) {
 
    console.log("New friends added");
+   console.log(req.body);
    friends.push(req.body);
-   res.json(true);
   
-  });
-
-
-  app.post("/api/clear", function(req, res) {
-    // Empty out the arrays of data
-    tableData.length = [];
-
-    res.json({ ok: true });
   });
 
   app.get("/routing/apiRoutes.js", function(req, res) {
